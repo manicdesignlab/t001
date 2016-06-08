@@ -1,0 +1,38 @@
+doctype html
+html
+  head
+    meta(charset='UTF-8')
+    link(rel='stylesheet', href='./css/style.css')
+    script(src='./js/jquery-2.2.4.js', charset='UTF-8')
+    script(src='./js/mordal.js', charset='UTF-8')
+    title demo
+
+  body
+    main.background
+     h1.img(src="/image/test.png" alt="logo")
+
+     section.content
+        nav
+          ul
+            li.no_type
+              h3 NEWS
+            li 6/10
+              span 内容が入ります。
+            li 6/17
+              span 内容が入ります。
+
+          ul.menu
+            li
+               a(href="#contentt_00e") MUSIC
+            li
+               a(href="https://youtube.com" target="blank") MV
+            li
+               a(href="#contentt_00k") CONTACT
+        include _mordal.html
+
+        .contentt
+
+    .contentt_002#contentt_00e
+    .contentt_003
+    a#contentt_00k
+    footer
